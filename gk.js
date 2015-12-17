@@ -1,10 +1,10 @@
-var width = 1000;
+var width = 1300;
 var height =  700;
 function Gk() {
 	this.x = 50;
-	this.y = height/2 - 25;
-	this.r = 10
-	this. ry = 50 
+	this.y = height/2 - 50;
+	this.r = 5
+	this. ry = 100 
 	this.velocity = 0.7;
 	this.limit = 1100;
 	this.play = true;
@@ -26,9 +26,9 @@ this.draw = function(ctx) {
 
 function Gk2() {
 	this.x = width - 60;
-	this.y = height/2 - 25;
-	this.r = 10
-	this. ry = 50 
+	this.y = height/2 - 50;
+	this.r = 5
+	this. ry = 100 
 	this.velocity = 0.7;
 	this.limit = 1100;
 	this.play = true;
