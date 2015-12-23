@@ -40,8 +40,8 @@
 				else{
 					this.y+=5;
 				}
-				this.velocity = -this.velocity;
-				this.b*=-1;
+				this.a*=-1;
+
 				}
 				if (this.x >= this.limit || this.x <= 0){
 				if(this.y>= (height/2 - 150) && this.y <= (height/2 + 150)){
@@ -51,15 +51,7 @@
 					else
 					this.pkt =2;
 				}
-				if(this.x>100){
-				this.x-=15;
-				}
-				else{
-				this.x+=15;
-				}
-
-				this.velocity = -this.velocity;
-				this.a*=-1;
+				this.b*=-1;
 				}
 				
 			}
